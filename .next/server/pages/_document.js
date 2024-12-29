@@ -1,0 +1,136 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_document";
+exports.ids = ["pages/_document"];
+exports.modules = {
+
+/***/ "./pages/_document.tsx":
+/*!*****************************!*\
+  !*** ./pages/_document.tsx ***!
+  \*****************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ MyDocument)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _emotion_server_create_instance__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/server/create-instance */ \"@emotion/server/create-instance\");\n/* harmony import */ var _src_theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/theme */ \"./src/theme.ts\");\n/* harmony import */ var _src_createEmotionCache__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/createEmotionCache */ \"./src/createEmotionCache.ts\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_emotion_server_create_instance__WEBPACK_IMPORTED_MODULE_3__, _src_createEmotionCache__WEBPACK_IMPORTED_MODULE_5__]);\n([_emotion_server_create_instance__WEBPACK_IMPORTED_MODULE_3__, _src_createEmotionCache__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);\n\n\n\n\n\n\nfunction MyDocument({ emotionStyleTags }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_2__.Html, {\n        lang: \"en\",\n        className: _src_theme__WEBPACK_IMPORTED_MODULE_4__.roboto.className,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_2__.Head, {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"theme-color\",\n                        content: _src_theme__WEBPACK_IMPORTED_MODULE_4__[\"default\"].palette.primary.main\n                    }, void 0, false, {\n                        fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                        lineNumber: 25,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: \"/favicon.ico\"\n                    }, void 0, false, {\n                        fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                        lineNumber: 26,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"emotion-insertion-point\",\n                        content: \"\"\n                    }, void 0, false, {\n                        fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                        lineNumber: 27,\n                        columnNumber: 9\n                    }, this),\n                    emotionStyleTags\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                lineNumber: 23,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_2__.Main, {}, void 0, false, {\n                        fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                        lineNumber: 31,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_2__.NextScript, {}, void 0, false, {\n                        fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                        lineNumber: 32,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                lineNumber: 30,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n        lineNumber: 22,\n        columnNumber: 5\n    }, this);\n}\n// `getInitialProps` belongs to `_document` (instead of `_app`),\n// it's compatible with static-site generation (SSG).\nMyDocument.getInitialProps = async (ctx)=>{\n    // Resolution order\n    //\n    // On the server:\n    // 1. app.getInitialProps\n    // 2. page.getInitialProps\n    // 3. document.getInitialProps\n    // 4. app.render\n    // 5. page.render\n    // 6. document.render\n    //\n    // On the server with error:\n    // 1. document.getInitialProps\n    // 2. app.render\n    // 3. page.render\n    // 4. document.render\n    //\n    // On the client\n    // 1. app.getInitialProps\n    // 2. page.getInitialProps\n    // 3. app.render\n    // 4. page.render\n    const originalRenderPage = ctx.renderPage;\n    // You can consider sharing the same Emotion cache between all the SSR requests to speed up performance.\n    // However, be aware that it can have global side effects.\n    const cache = (0,_src_createEmotionCache__WEBPACK_IMPORTED_MODULE_5__[\"default\"])();\n    const { extractCriticalToChunks } = (0,_emotion_server_create_instance__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(cache);\n    ctx.renderPage = ()=>originalRenderPage({\n            enhanceApp: (App)=>function EnhanceApp(props) {\n                    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(App, {\n                        emotionCache: cache,\n                        ...props\n                    }, void 0, false, {\n                        fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n                        lineNumber: 76,\n                        columnNumber: 18\n                    }, this);\n                }\n        });\n    const initialProps = await next_document__WEBPACK_IMPORTED_MODULE_2___default().getInitialProps(ctx);\n    // This is important. It prevents Emotion to render invalid HTML.\n    // See https://github.com/mui/material-ui/issues/26561#issuecomment-855286153\n    const emotionStyles = extractCriticalToChunks(initialProps.html);\n    const emotionStyleTags = emotionStyles.styles.map((style)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"style\", {\n            \"data-emotion\": `${style.key} ${style.ids.join(\" \")}`,\n            // eslint-disable-next-line react/no-danger\n            dangerouslySetInnerHTML: {\n                __html: style.css\n            }\n        }, style.key, false, {\n            fileName: \"/Users/quentinhumphrey/learnbase-new/pages/_document.tsx\",\n            lineNumber: 85,\n            columnNumber: 5\n        }, undefined));\n    return {\n        ...initialProps,\n        emotionStyleTags\n    };\n};\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fZG9jdW1lbnQudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQThCO0FBUVI7QUFDMkM7QUFFckI7QUFDYztBQU8zQyxTQUFTVSxXQUFXLEVBQUVDLGdCQUFnQixFQUFtQjtJQUN0RSxxQkFDRSw4REFBQ1QsK0NBQUlBO1FBQUNVLE1BQUs7UUFBS0MsV0FBV0wsOENBQU1BLENBQUNLLFNBQVM7OzBCQUN6Qyw4REFBQ1YsK0NBQUlBOztrQ0FFSCw4REFBQ1c7d0JBQUtDLE1BQUs7d0JBQWNDLFNBQVNULDBEQUFhLENBQUNXLE9BQU8sQ0FBQ0MsSUFBSTs7Ozs7O2tDQUM1RCw4REFBQ0M7d0JBQUtDLEtBQUk7d0JBQWdCQyxNQUFLOzs7Ozs7a0NBQy9CLDhEQUFDUjt3QkFBS0MsTUFBSzt3QkFBMEJDLFNBQVE7Ozs7OztvQkFDNUNMOzs7Ozs7OzBCQUVILDhEQUFDWTs7a0NBQ0MsOERBQUNuQiwrQ0FBSUE7Ozs7O2tDQUNMLDhEQUFDQyxxREFBVUE7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSW5CO0FBRUEsZ0VBQWdFO0FBQ2hFLHFEQUFxRDtBQUNyREssV0FBV2MsZUFBZSxHQUFHLE9BQU9DO0lBQ2xDLG1CQUFtQjtJQUNuQixFQUFFO0lBQ0YsaUJBQWlCO0lBQ2pCLHlCQUF5QjtJQUN6QiwwQkFBMEI7SUFDMUIsOEJBQThCO0lBQzlCLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIscUJBQXFCO0lBQ3JCLEVBQUU7SUFDRiw0QkFBNEI7SUFDNUIsOEJBQThCO0lBQzlCLGdCQUFnQjtJQUNoQixpQkFBaUI7SUFDakIscUJBQXFCO0lBQ3JCLEVBQUU7SUFDRixnQkFBZ0I7SUFDaEIseUJBQXlCO0lBQ3pCLDBCQUEwQjtJQUMxQixnQkFBZ0I7SUFDaEIsaUJBQWlCO0lBRWpCLE1BQU1DLHFCQUFxQkQsSUFBSUUsVUFBVTtJQUV6Qyx3R0FBd0c7SUFDeEcsMERBQTBEO0lBQzFELE1BQU1DLFFBQVFuQixtRUFBa0JBO0lBQ2hDLE1BQU0sRUFBRW9CLHVCQUF1QixFQUFFLEdBQUd2QiwyRUFBbUJBLENBQUNzQjtJQUV4REgsSUFBSUUsVUFBVSxHQUFHLElBQ2ZELG1CQUFtQjtZQUNqQkksWUFBWSxDQUNWQyxNQUVBLFNBQVNDLFdBQVdDLEtBQUs7b0JBQ3ZCLHFCQUFPLDhEQUFDRjt3QkFBSUcsY0FBY047d0JBQVEsR0FBR0ssS0FBSzs7Ozs7O2dCQUM1QztRQUNKO0lBRUYsTUFBTUUsZUFBZSxNQUFNbEMsb0VBQXdCLENBQUN3QjtJQUNwRCxpRUFBaUU7SUFDakUsNkVBQTZFO0lBQzdFLE1BQU1XLGdCQUFnQlAsd0JBQXdCTSxhQUFhRSxJQUFJO0lBQy9ELE1BQU0xQixtQkFBbUJ5QixjQUFjRSxNQUFNLENBQUNDLEdBQUcsQ0FBQyxDQUFDQyxzQkFDakQsOERBQUNBO1lBQ0NDLGdCQUFjLENBQUMsRUFBRUQsTUFBTUUsR0FBRyxDQUFDLENBQUMsRUFBRUYsTUFBTUcsR0FBRyxDQUFDQyxJQUFJLENBQUMsS0FBSyxDQUFDO1lBRW5ELDJDQUEyQztZQUMzQ0MseUJBQXlCO2dCQUFFQyxRQUFRTixNQUFNTyxHQUFHO1lBQUM7V0FGeENQLE1BQU1FLEdBQUc7Ozs7O0lBTWxCLE9BQU87UUFDTCxHQUFHUCxZQUFZO1FBQ2Z4QjtJQUNGO0FBQ0YiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9sZWFybmJhc2UtbmV4dC0yLy4vcGFnZXMvX2RvY3VtZW50LnRzeD9kMzdkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiXG5pbXBvcnQgRG9jdW1lbnQsIHtcbiAgSHRtbCxcbiAgSGVhZCxcbiAgTWFpbixcbiAgTmV4dFNjcmlwdCxcbiAgRG9jdW1lbnRQcm9wcyxcbiAgRG9jdW1lbnRDb250ZXh0LFxufSBmcm9tIFwibmV4dC9kb2N1bWVudFwiXG5pbXBvcnQgY3JlYXRlRW1vdGlvblNlcnZlciBmcm9tIFwiQGVtb3Rpb24vc2VydmVyL2NyZWF0ZS1pbnN0YW5jZVwiXG5pbXBvcnQgeyBBcHBUeXBlIH0gZnJvbSBcIm5leHQvYXBwXCJcbmltcG9ydCB0aGVtZSwgeyByb2JvdG8gfSBmcm9tIFwiLi4vc3JjL3RoZW1lXCJcbmltcG9ydCBjcmVhdGVFbW90aW9uQ2FjaGUgZnJvbSBcIi4uL3NyYy9jcmVhdGVFbW90aW9uQ2FjaGVcIlxuaW1wb3J0IHsgTXlBcHBQcm9wcyB9IGZyb20gXCIuL19hcHBcIlxuXG5pbnRlcmZhY2UgTXlEb2N1bWVudFByb3BzIGV4dGVuZHMgRG9jdW1lbnRQcm9wcyB7XG4gIGVtb3Rpb25TdHlsZVRhZ3M6IEpTWC5FbGVtZW50W11cbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTXlEb2N1bWVudCh7IGVtb3Rpb25TdHlsZVRhZ3MgfTogTXlEb2N1bWVudFByb3BzKSB7XG4gIHJldHVybiAoXG4gICAgPEh0bWwgbGFuZz1cImVuXCIgY2xhc3NOYW1lPXtyb2JvdG8uY2xhc3NOYW1lfT5cbiAgICAgIDxIZWFkPlxuICAgICAgICB7LyogUFdBIHByaW1hcnkgY29sb3IgKi99XG4gICAgICAgIDxtZXRhIG5hbWU9XCJ0aGVtZS1jb2xvclwiIGNvbnRlbnQ9e3RoZW1lLnBhbGV0dGUucHJpbWFyeS5tYWlufSAvPlxuICAgICAgICA8bGluayByZWw9XCJzaG9ydGN1dCBpY29uXCIgaHJlZj1cIi9mYXZpY29uLmljb1wiIC8+XG4gICAgICAgIDxtZXRhIG5hbWU9XCJlbW90aW9uLWluc2VydGlvbi1wb2ludFwiIGNvbnRlbnQ9XCJcIiAvPlxuICAgICAgICB7ZW1vdGlvblN0eWxlVGFnc31cbiAgICAgIDwvSGVhZD5cbiAgICAgIDxib2R5PlxuICAgICAgICA8TWFpbiAvPlxuICAgICAgICA8TmV4dFNjcmlwdCAvPlxuICAgICAgPC9ib2R5PlxuICAgIDwvSHRtbD5cbiAgKVxufVxuXG4vLyBgZ2V0SW5pdGlhbFByb3BzYCBiZWxvbmdzIHRvIGBfZG9jdW1lbnRgIChpbnN0ZWFkIG9mIGBfYXBwYCksXG4vLyBpdCdzIGNvbXBhdGlibGUgd2l0aCBzdGF0aWMtc2l0ZSBnZW5lcmF0aW9uIChTU0cpLlxuTXlEb2N1bWVudC5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyAoY3R4OiBEb2N1bWVudENvbnRleHQpID0+IHtcbiAgLy8gUmVzb2x1dGlvbiBvcmRlclxuICAvL1xuICAvLyBPbiB0aGUgc2VydmVyOlxuICAvLyAxLiBhcHAuZ2V0SW5pdGlhbFByb3BzXG4gIC8vIDIuIHBhZ2UuZ2V0SW5pdGlhbFByb3BzXG4gIC8vIDMuIGRvY3VtZW50LmdldEluaXRpYWxQcm9wc1xuICAvLyA0LiBhcHAucmVuZGVyXG4gIC8vIDUuIHBhZ2UucmVuZGVyXG4gIC8vIDYuIGRvY3VtZW50LnJlbmRlclxuICAvL1xuICAvLyBPbiB0aGUgc2VydmVyIHdpdGggZXJyb3I6XG4gIC8vIDEuIGRvY3VtZW50LmdldEluaXRpYWxQcm9wc1xuICAvLyAyLiBhcHAucmVuZGVyXG4gIC8vIDMuIHBhZ2UucmVuZGVyXG4gIC8vIDQuIGRvY3VtZW50LnJlbmRlclxuICAvL1xuICAvLyBPbiB0aGUgY2xpZW50XG4gIC8vIDEuIGFwcC5nZXRJbml0aWFsUHJvcHNcbiAgLy8gMi4gcGFnZS5nZXRJbml0aWFsUHJvcHNcbiAgLy8gMy4gYXBwLnJlbmRlclxuICAvLyA0LiBwYWdlLnJlbmRlclxuXG4gIGNvbnN0IG9yaWdpbmFsUmVuZGVyUGFnZSA9IGN0eC5yZW5kZXJQYWdlXG5cbiAgLy8gWW91IGNhbiBjb25zaWRlciBzaGFyaW5nIHRoZSBzYW1lIEVtb3Rpb24gY2FjaGUgYmV0d2VlbiBhbGwgdGhlIFNTUiByZXF1ZXN0cyB0byBzcGVlZCB1cCBwZXJmb3JtYW5jZS5cbiAgLy8gSG93ZXZlciwgYmUgYXdhcmUgdGhhdCBpdCBjYW4gaGF2ZSBnbG9iYWwgc2lkZSBlZmZlY3RzLlxuICBjb25zdCBjYWNoZSA9IGNyZWF0ZUVtb3Rpb25DYWNoZSgpXG4gIGNvbnN0IHsgZXh0cmFjdENyaXRpY2FsVG9DaHVua3MgfSA9IGNyZWF0ZUVtb3Rpb25TZXJ2ZXIoY2FjaGUpXG5cbiAgY3R4LnJlbmRlclBhZ2UgPSAoKSA9PlxuICAgIG9yaWdpbmFsUmVuZGVyUGFnZSh7XG4gICAgICBlbmhhbmNlQXBwOiAoXG4gICAgICAgIEFwcDogUmVhY3QuQ29tcG9uZW50VHlwZTxSZWFjdC5Db21wb25lbnRQcm9wczxBcHBUeXBlPiAmIE15QXBwUHJvcHM+XG4gICAgICApID0+XG4gICAgICAgIGZ1bmN0aW9uIEVuaGFuY2VBcHAocHJvcHMpIHtcbiAgICAgICAgICByZXR1cm4gPEFwcCBlbW90aW9uQ2FjaGU9e2NhY2hlfSB7Li4ucHJvcHN9IC8+XG4gICAgICAgIH0sXG4gICAgfSlcblxuICBjb25zdCBpbml0aWFsUHJvcHMgPSBhd2FpdCBEb2N1bWVudC5nZXRJbml0aWFsUHJvcHMoY3R4KVxuICAvLyBUaGlzIGlzIGltcG9ydGFudC4gSXQgcHJldmVudHMgRW1vdGlvbiB0byByZW5kZXIgaW52YWxpZCBIVE1MLlxuICAvLyBTZWUgaHR0cHM6Ly9naXRodWIuY29tL211aS9tYXRlcmlhbC11aS9pc3N1ZXMvMjY1NjEjaXNzdWVjb21tZW50LTg1NTI4NjE1M1xuICBjb25zdCBlbW90aW9uU3R5bGVzID0gZXh0cmFjdENyaXRpY2FsVG9DaHVua3MoaW5pdGlhbFByb3BzLmh0bWwpXG4gIGNvbnN0IGVtb3Rpb25TdHlsZVRhZ3MgPSBlbW90aW9uU3R5bGVzLnN0eWxlcy5tYXAoKHN0eWxlKSA9PiAoXG4gICAgPHN0eWxlXG4gICAgICBkYXRhLWVtb3Rpb249e2Ake3N0eWxlLmtleX0gJHtzdHlsZS5pZHMuam9pbihcIiBcIil9YH1cbiAgICAgIGtleT17c3R5bGUua2V5fVxuICAgICAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIHJlYWN0L25vLWRhbmdlclxuICAgICAgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBzdHlsZS5jc3MgfX1cbiAgICAvPlxuICApKVxuXG4gIHJldHVybiB7XG4gICAgLi4uaW5pdGlhbFByb3BzLFxuICAgIGVtb3Rpb25TdHlsZVRhZ3MsXG4gIH1cbn1cbiJdLCJuYW1lcyI6WyJSZWFjdCIsIkRvY3VtZW50IiwiSHRtbCIsIkhlYWQiLCJNYWluIiwiTmV4dFNjcmlwdCIsImNyZWF0ZUVtb3Rpb25TZXJ2ZXIiLCJ0aGVtZSIsInJvYm90byIsImNyZWF0ZUVtb3Rpb25DYWNoZSIsIk15RG9jdW1lbnQiLCJlbW90aW9uU3R5bGVUYWdzIiwibGFuZyIsImNsYXNzTmFtZSIsIm1ldGEiLCJuYW1lIiwiY29udGVudCIsInBhbGV0dGUiLCJwcmltYXJ5IiwibWFpbiIsImxpbmsiLCJyZWwiLCJocmVmIiwiYm9keSIsImdldEluaXRpYWxQcm9wcyIsImN0eCIsIm9yaWdpbmFsUmVuZGVyUGFnZSIsInJlbmRlclBhZ2UiLCJjYWNoZSIsImV4dHJhY3RDcml0aWNhbFRvQ2h1bmtzIiwiZW5oYW5jZUFwcCIsIkFwcCIsIkVuaGFuY2VBcHAiLCJwcm9wcyIsImVtb3Rpb25DYWNoZSIsImluaXRpYWxQcm9wcyIsImVtb3Rpb25TdHlsZXMiLCJodG1sIiwic3R5bGVzIiwibWFwIiwic3R5bGUiLCJkYXRhLWVtb3Rpb24iLCJrZXkiLCJpZHMiLCJqb2luIiwiZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUwiLCJfX2h0bWwiLCJjc3MiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_document.tsx\n");
+
+/***/ }),
+
+/***/ "./src/createEmotionCache.ts":
+/*!***********************************!*\
+  !*** ./src/createEmotionCache.ts ***!
+  \***********************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ createEmotionCache)\n/* harmony export */ });\n/* harmony import */ var _emotion_cache__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/cache */ \"@emotion/cache\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_emotion_cache__WEBPACK_IMPORTED_MODULE_0__]);\n_emotion_cache__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\nconst isBrowser = typeof document !== \"undefined\";\n// On the client side, Create a meta tag at the top of the <head> and set it as insertionPoint.\n// This assures that MUI styles are loaded first.\n// It allows developers to easily override MUI styles with other styling solutions, like CSS modules.\nfunction createEmotionCache() {\n    let insertionPoint;\n    if (isBrowser) {\n        const emotionInsertionPoint = document.querySelector('meta[name=\"emotion-insertion-point\"]');\n        insertionPoint = emotionInsertionPoint ?? undefined;\n    }\n    return (0,_emotion_cache__WEBPACK_IMPORTED_MODULE_0__[\"default\"])({\n        key: \"mui-style\",\n        insertionPoint\n    });\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY3JlYXRlRW1vdGlvbkNhY2hlLnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQXdDO0FBRXhDLE1BQU1DLFlBQVksT0FBT0MsYUFBYTtBQUV0QywrRkFBK0Y7QUFDL0YsaURBQWlEO0FBQ2pELHFHQUFxRztBQUN0RixTQUFTQztJQUN0QixJQUFJQztJQUVKLElBQUlILFdBQVc7UUFDYixNQUFNSSx3QkFBd0JILFNBQVNJLGFBQWEsQ0FDbEQ7UUFFRkYsaUJBQWlCQyx5QkFBeUJFO0lBQzVDO0lBRUEsT0FBT1AsMERBQVdBLENBQUM7UUFBRVEsS0FBSztRQUFhSjtJQUFlO0FBQ3hEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbGVhcm5iYXNlLW5leHQtMi8uL3NyYy9jcmVhdGVFbW90aW9uQ2FjaGUudHM/OTEyNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY3JlYXRlQ2FjaGUgZnJvbSBcIkBlbW90aW9uL2NhY2hlXCJcblxuY29uc3QgaXNCcm93c2VyID0gdHlwZW9mIGRvY3VtZW50ICE9PSBcInVuZGVmaW5lZFwiXG5cbi8vIE9uIHRoZSBjbGllbnQgc2lkZSwgQ3JlYXRlIGEgbWV0YSB0YWcgYXQgdGhlIHRvcCBvZiB0aGUgPGhlYWQ+IGFuZCBzZXQgaXQgYXMgaW5zZXJ0aW9uUG9pbnQuXG4vLyBUaGlzIGFzc3VyZXMgdGhhdCBNVUkgc3R5bGVzIGFyZSBsb2FkZWQgZmlyc3QuXG4vLyBJdCBhbGxvd3MgZGV2ZWxvcGVycyB0byBlYXNpbHkgb3ZlcnJpZGUgTVVJIHN0eWxlcyB3aXRoIG90aGVyIHN0eWxpbmcgc29sdXRpb25zLCBsaWtlIENTUyBtb2R1bGVzLlxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gY3JlYXRlRW1vdGlvbkNhY2hlKCkge1xuICBsZXQgaW5zZXJ0aW9uUG9pbnRcblxuICBpZiAoaXNCcm93c2VyKSB7XG4gICAgY29uc3QgZW1vdGlvbkluc2VydGlvblBvaW50ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcjxIVE1MTWV0YUVsZW1lbnQ+KFxuICAgICAgJ21ldGFbbmFtZT1cImVtb3Rpb24taW5zZXJ0aW9uLXBvaW50XCJdJ1xuICAgIClcbiAgICBpbnNlcnRpb25Qb2ludCA9IGVtb3Rpb25JbnNlcnRpb25Qb2ludCA/PyB1bmRlZmluZWRcbiAgfVxuXG4gIHJldHVybiBjcmVhdGVDYWNoZSh7IGtleTogXCJtdWktc3R5bGVcIiwgaW5zZXJ0aW9uUG9pbnQgfSlcbn1cbiJdLCJuYW1lcyI6WyJjcmVhdGVDYWNoZSIsImlzQnJvd3NlciIsImRvY3VtZW50IiwiY3JlYXRlRW1vdGlvbkNhY2hlIiwiaW5zZXJ0aW9uUG9pbnQiLCJlbW90aW9uSW5zZXJ0aW9uUG9pbnQiLCJxdWVyeVNlbGVjdG9yIiwidW5kZWZpbmVkIiwia2V5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/createEmotionCache.ts\n");
+
+/***/ }),
+
+/***/ "./src/theme.ts":
+/*!**********************!*\
+  !*** ./src/theme.ts ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   roboto: () => (/* reexport default from dynamic */ next_font_google_target_css_path_src_theme_ts_import_Roboto_arguments_weight_300_400_500_700_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2___default.a)\n/* harmony export */ });\n/* harmony import */ var next_font_google_target_css_path_src_theme_ts_import_Roboto_arguments_weight_300_400_500_700_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/theme.ts\",\"import\":\"Roboto\",\"arguments\":[{\"weight\":[\"300\",\"400\",\"500\",\"700\"],\"subsets\":[\"latin\"],\"display\":\"swap\"}],\"variableName\":\"roboto\"} */ \"./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/theme.ts\\\",\\\"import\\\":\\\"Roboto\\\",\\\"arguments\\\":[{\\\"weight\\\":[\\\"300\\\",\\\"400\\\",\\\"500\\\",\\\"700\\\"],\\\"subsets\\\":[\\\"latin\\\"],\\\"display\\\":\\\"swap\\\"}],\\\"variableName\\\":\\\"roboto\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_theme_ts_import_Roboto_arguments_weight_300_400_500_700_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_theme_ts_import_Roboto_arguments_weight_300_400_500_700_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/material/styles */ \"@mui/material/styles\");\n/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_mui_material_styles__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _mui_material_colors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material/colors */ \"@mui/material/colors\");\n/* harmony import */ var _mui_material_colors__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mui_material_colors__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n// Create a theme instance.\nconst theme = (0,_mui_material_styles__WEBPACK_IMPORTED_MODULE_0__.createTheme)({\n    palette: {\n        primary: {\n            main: \"#556cd6\"\n        },\n        secondary: {\n            main: \"#19857b\"\n        },\n        error: {\n            main: _mui_material_colors__WEBPACK_IMPORTED_MODULE_1__.red.A400\n        }\n    },\n    typography: {\n        fontFamily: (next_font_google_target_css_path_src_theme_ts_import_Roboto_arguments_weight_300_400_500_700_subsets_latin_display_swap_variableName_roboto___WEBPACK_IMPORTED_MODULE_2___default().style).fontFamily\n    }\n});\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (theme);\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvdGhlbWUudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFJYUE7QUFIcUM7QUFDUjtBQVExQywyQkFBMkI7QUFDM0IsTUFBTUcsUUFBUUYsaUVBQVdBLENBQUM7SUFDeEJHLFNBQVM7UUFDUEMsU0FBUztZQUNQQyxNQUFNO1FBQ1I7UUFDQUMsV0FBVztZQUNURCxNQUFNO1FBQ1I7UUFDQUUsT0FBTztZQUNMRixNQUFNSixxREFBR0EsQ0FBQ08sSUFBSTtRQUNoQjtJQUNGO0lBQ0FDLFlBQVk7UUFDVkMsWUFBWVgsMkxBQVksQ0FBQ1csVUFBVTtJQUNyQztBQUNGO0FBRUEsaUVBQWVSLEtBQUtBLEVBQUE7QUF4QlBIIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbGVhcm5iYXNlLW5leHQtMi8uL3NyYy90aGVtZS50cz9kYzlhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvYm90byB9IGZyb20gXCJuZXh0L2ZvbnQvZ29vZ2xlXCJcbmltcG9ydCB7IGNyZWF0ZVRoZW1lIH0gZnJvbSBcIkBtdWkvbWF0ZXJpYWwvc3R5bGVzXCJcbmltcG9ydCB7IHJlZCB9IGZyb20gXCJAbXVpL21hdGVyaWFsL2NvbG9yc1wiXG5cbmV4cG9ydCBjb25zdCByb2JvdG8gPSBSb2JvdG8oe1xuICB3ZWlnaHQ6IFtcIjMwMFwiLCBcIjQwMFwiLCBcIjUwMFwiLCBcIjcwMFwiXSxcbiAgc3Vic2V0czogW1wibGF0aW5cIl0sXG4gIGRpc3BsYXk6IFwic3dhcFwiLFxufSlcblxuLy8gQ3JlYXRlIGEgdGhlbWUgaW5zdGFuY2UuXG5jb25zdCB0aGVtZSA9IGNyZWF0ZVRoZW1lKHtcbiAgcGFsZXR0ZToge1xuICAgIHByaW1hcnk6IHtcbiAgICAgIG1haW46IFwiIzU1NmNkNlwiLFxuICAgIH0sXG4gICAgc2Vjb25kYXJ5OiB7XG4gICAgICBtYWluOiBcIiMxOTg1N2JcIixcbiAgICB9LFxuICAgIGVycm9yOiB7XG4gICAgICBtYWluOiByZWQuQTQwMCxcbiAgICB9LFxuICB9LFxuICB0eXBvZ3JhcGh5OiB7XG4gICAgZm9udEZhbWlseTogcm9ib3RvLnN0eWxlLmZvbnRGYW1pbHksXG4gIH0sXG59KVxuXG5leHBvcnQgZGVmYXVsdCB0aGVtZVxuIl0sIm5hbWVzIjpbInJvYm90byIsImNyZWF0ZVRoZW1lIiwicmVkIiwidGhlbWUiLCJwYWxldHRlIiwicHJpbWFyeSIsIm1haW4iLCJzZWNvbmRhcnkiLCJlcnJvciIsIkE0MDAiLCJ0eXBvZ3JhcGh5IiwiZm9udEZhbWlseSIsInN0eWxlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/theme.ts\n");
+
+/***/ }),
+
+/***/ "@mui/material/colors":
+/*!***************************************!*\
+  !*** external "@mui/material/colors" ***!
+  \***************************************/
+/***/ ((module) => {
+
+module.exports = require("@mui/material/colors");
+
+/***/ }),
+
+/***/ "@mui/material/styles":
+/*!***************************************!*\
+  !*** external "@mui/material/styles" ***!
+  \***************************************/
+/***/ ((module) => {
+
+module.exports = require("@mui/material/styles");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
+/*!**********************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "@emotion/cache":
+/*!*********************************!*\
+  !*** external "@emotion/cache" ***!
+  \*********************************/
+/***/ ((module) => {
+
+module.exports = import("@emotion/cache");;
+
+/***/ }),
+
+/***/ "@emotion/server/create-instance":
+/*!**************************************************!*\
+  !*** external "@emotion/server/create-instance" ***!
+  \**************************************************/
+/***/ ((module) => {
+
+module.exports = import("@emotion/server/create-instance");;
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("./pages/_document.tsx")));
+module.exports = __webpack_exports__;
+
+})();
